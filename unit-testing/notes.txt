@@ -1,0 +1,11 @@
+Failing test function :
+
+t.Fail() => continue test if fail
+t.FailNow() => stop test if fail and continue to another test function
+
+t.Error("Error Msg") => Fail() with error msg
+t.Fatal("Error Msg") => FailNow() with error msg
+
+Skipping test :
+
+t.Skip() => for example, if the test can only run on mac. you can skip the test on another OS.
